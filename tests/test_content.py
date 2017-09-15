@@ -537,7 +537,7 @@ def test_custom_1():
         for k,v in list_of_tuples:
             
     new_result   =   ("{:20} | {:>6}".format(k,v))
-    assert new_result =               Word         | Count 
-                            ****************************************
+    assert new_result ==               Word         | Count 
+                            ****************************************     #OUTPUT
                               RT                   |     52
         
