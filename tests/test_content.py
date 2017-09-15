@@ -524,3 +524,20 @@ def test_custom_1():
     new_result = '{:open-the-pod-bay-doors}'.format(HAL9000())
 
     assert new_result == "I'm afraid I can't do that."  # output
+    
+    
+    
+    def test_pretty_counts(label,list_of_tuple):
+        '''
+        Create a pretty function to display tuples in a nice tabular format.
+        Using Twitter data to print frequency distribution from words in tweet.
+        '''
+        print("\n{:^20} | {:^6}".format(label, "Count"))
+        print("*"*40)
+        for k,v in list_of_tuples:
+            
+    new_result   =   ("{:20} | {:>6}".format(k,v))
+    assert new_result =               Word         | Count 
+                            ****************************************
+                              RT                   |     52
+        
